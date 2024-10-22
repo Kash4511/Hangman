@@ -27,7 +27,4 @@ if voter_data:
 else:
     print("No valid voter ID entered. Exiting the voting process.")
 
-#     vote[pick_candi] += 1
-#     print("Vote casted for {}".format(vote))
-# else:
-#     print("The entered candidate does not exist")
+
