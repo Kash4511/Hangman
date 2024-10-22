@@ -1,2 +1,2 @@
-# Hangman
+
 just practicing python
