@@ -26,14 +26,7 @@ if voter_data:
         print("The entered candidate does not exist.")
 else:
     print("No valid voter ID entered. Exiting the voting process.")
-# voter_data = voter_ID()
-# for data in voter_data:
-#     print(data)
 
-# vote = {'Alex':0,'Bob':0,'Tom':0,'Harry':0}
-# print("The Candidates are :\n Alex \n Bob \n Tom \n Harry")
-# pick_candi = input("Enter the condidate you want to vote for: ")
-# if pick_candi in vote:
 #     vote[pick_candi] += 1
 #     print("Vote casted for {}".format(vote))
 # else:
