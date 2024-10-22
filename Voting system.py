@@ -2,7 +2,7 @@ def voter_ID():
     result = []
     
     while True:
-        id = input("Enter your Voter ID (to exit type 'exit'): ")
+        id = input("Enter your Voter ID: ")
         user = input("Enter your Name: ")
         if "ID" in id and len(id) < 7:
             result.append("User Name: {}\nUser Voter ID: {}".format(user, id))
