@@ -3,9 +3,11 @@ def voter_ID():
     
     while True:
         id = input("Enter your Voter ID: ")
+        
         user = input("Enter your Name: ")
         if "ID" in id and len(id) < 7:
-            result.append("User Name: {}\nUser Voter ID: {}".format(user, id))
+            result.append("----------------------- \nUser Name: {}\nUser Voter ID: {}\n -----------------------".format(user, id))
+            
             break
         else:
             print("Invalid Voter ID or Name")
@@ -22,8 +24,10 @@ if voter_data:
     if pick_candi in vote:
         vote[pick_candi] += 1
         print("Vote casted for {}".format(vote))
+    
     else:
         print("The entered candidate does not exist.")
+    
 else:
     print("No valid voter ID entered. Exiting the voting process.")
 
